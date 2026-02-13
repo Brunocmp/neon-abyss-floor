@@ -1,21 +1,26 @@
 {
   "name": "neon-abyss-floor",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "pixi.js": "^8.5.2",
-    "zustand": "^5.0.0",
-    "pixi-filters": "^5.2.1"
-  },
-  "devDependencies": {
-    "typescript": "^5.6.2",
-    "vite": "^5.4.8"
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "neon-abyss-floor",
+      "version": "0.0.0",
+      "dependencies": {
+        "pixi.js": "^8.5.2",
+        "zustand": "^5.0.0",
+        "pixi-filters": "^5.2.1"
+      },
+      "devDependencies": {
+        "typescript": "^5.6.2",
+        "vite": "^5.4.8"
+      }
+    },
+    "node_modules/@pixi/accessibility": {
+      "version": "8.5.2",
+      "resolved": "https://registry.npmjs.org/@pixi/accessibility/-/accessibility-8.5.2.tgz"
+    },
+    // ... (não precisa colar tudo, mas pra funcionar, use uma versão mínima ou gere local)
+    // Nota: pra evitar erro, use uma versão simples gerada
   }
 }
-// Adicionado comentário temporário para gerar lock
